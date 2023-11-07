@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #3494e6, #ec6ead);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add these styles to your style.css file */
+
+/* Style the DataTable */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #3494e6;
+  color: #fff;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background: #ec6ead;
+  color: #fff;
+}
+
+/* Style the buttons */
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #3494e6;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #ec6ead;
+  color: #fff;
+}
+
+.btn-success {
+  background: #31a24c;
+  color: #fff;
+}
+
+.btn-danger {
+  background: #d9534f;
+  color: #fff;
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Add other styles as needed */
